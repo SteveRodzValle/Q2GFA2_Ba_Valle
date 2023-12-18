@@ -1,0 +1,200 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    background-image:url(img/bg.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:transparent;
+    width: 100vw;
+    height: 7vh;
+    padding: 5px ; 
+    position: fixed;
+    top: 0;
+}
+
+.botbar
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(87, 7, 90, 0.74);
+    width: 100vw;
+    height: 5vh;
+    padding: 5px ;
+    position: fixed;
+    bottom: 0;
+}
+.botbar h5
+{
+    color: #ffffff;
+
+}
+
+.links{
+    margin-top: 6px;
+    margin-right: 100px;
+    display: flex;
+    
+}
+
+.links a {
+    color:plum;
+    margin-left: 100px; 
+    margin-top: 6px;
+    text-decoration: none;
+    display: flex;
+}
+.logo img {
+    width: 3vw; 
+    height: auto; 
+    margin-left: 40px;
+    border-radius: 60%;
+}
+.highlight
+{
+    color:rgb(255, 0, 234);
+}
+.maintext h1 {
+    color: #8a008a;
+    font-size: 500%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: absolute; 
+    top: 30%; 
+    left: 0;
+    right: 0;
+    margin-top: -0.5%;
+}
+.maintext h3 {
+    font-size: 80%;
+    color:plum;
+    margin-left: 165px ;
+    position: absolute; 
+    top: 40%; 
+    left: 0;
+    right: 0;
+    margin-top: -0.5%;
+}
+
+.maintext a{
+    border-radius: 2vw;
+    text-decoration: none;
+    padding: 1vw;
+    background-color: rgb(82, 22, 138);
+    color: rgb(243, 115, 237);
+    font-size: 100%;
+    border: 0.1vw solid black;
+    text-align: center;
+    position: absolute; 
+    top: 50%; 
+    right: 44%;
+    margin-top: -0.5%;
+    width: 10vw;
+}
+
+.maintext img
+{
+  width: 5vw;
+  height: 7vh;
+}
+
+.button{
+    width: 200px;
+    padding: 15 px 0;
+    text-align: center;
+    margin:20 px 10 px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color:#ffffff;
+    cursor: pointer;
+
+}
+.bodies{
+display: inline-block; 
+background-repeat: no-repeat; 
+background-position: center; 
+background-size: cover;
+}
+.earth{
+background-image: url(img/earth.gif);
+width: 200px;
+height: 200px;
+animation: leftright 20s ease 0s infinite;
+background-color: transparent;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 50%;
+padding: 0 5%;
+}
+@keyframes leftright{
+    0% { transform: translate(-100%);}
+    100% { transform: translate(100vw);}
+}
+.galaxy{
+background-image: url(img/galaxy.gif);
+width: 500px;
+height: 500px;
+animation: grow 5s ease 0s infinite;
+background-color: transparent;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 60%;
+padding: 0 5%;
+}
+@keyframes grow{
+    0% {transform: scale(100%);}
+    50%{transform:scale(150%);}
+    100%{transform:scale(100%);}
+}
+.gasgiant{
+    background-image: url(img/gasgiant.gif);
+    width: 500px;
+    height: 500px;
+    animation: rotate 50s ease 0s infinite;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding: 0 5%;
+    bottom: 10%;
+    top: 35%; 
+    right: 10%;
+    margin-top: -0.5%;
+    position: absolute;
+    }
+    @keyframes rotate{
+        0%{ transform: rotate(0deg);}
+        25%{transform:rotate(360deg);}
+        100%{transform:rotate(0deg);}
+    }
+    .islands{background-image: url(img/islands.gif);
+        width: 250px;
+        height: 250px;
+        animation: skew 10s ease 0s infinite;
+        background-color: transparent;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        padding: 0 5%;
+        bottom: 10%;
+        top: 0%; 
+        right: 10%;
+        margin-top: -0.5%;
+        position: absolute;
+        }
+        @keyframes skew{
+            0%{transform: skewY(0deg);}
+            50%{transform:skewY(45deg);}
+            100%{transform: skewY(0deg);}
+        }
+
+    
