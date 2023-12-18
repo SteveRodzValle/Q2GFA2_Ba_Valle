@@ -5,7 +5,7 @@ body, html {
     height: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: black;
-    background-image:url(img/bg.jpg);
+    background-image:url(bg.jpg);
     background-size: cover;
     background-position: center; 
 }
@@ -125,7 +125,7 @@ background-position: center;
 background-size: cover;
 }
 .earth{
-background-image: url(img/earth.gif);
+background-image: url(earth.gif);
 width: 200px;
 height: 200px;
 animation: leftright 20s ease 0s infinite;
@@ -140,7 +140,7 @@ padding: 0 5%;
     100% { transform: translate(100vw);}
 }
 .galaxy{
-background-image: url(img/galaxy.gif);
+background-image: url(galaxy.gif);
 width: 500px;
 height: 500px;
 animation: grow 5s ease 0s infinite;
@@ -156,7 +156,7 @@ padding: 0 5%;
     100%{transform:scale(100%);}
 }
 .gasgiant{
-    background-image: url(img/gasgiant.gif);
+    background-image: url(gasgiant.gif);
     width: 500px;
     height: 500px;
     animation: rotate 50s ease 0s infinite;
@@ -176,7 +176,7 @@ padding: 0 5%;
         25%{transform:rotate(360deg);}
         100%{transform:rotate(0deg);}
     }
-    .islands{background-image: url(img/islands.gif);
+    .islands{background-image: url(islands.gif);
         width: 250px;
         height: 250px;
         animation: skew 10s ease 0s infinite;
